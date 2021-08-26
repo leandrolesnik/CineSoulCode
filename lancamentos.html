@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <title>Cine SoulCode - Lançamentos</title>
+</head>
+<body>
+  <main>
+    <section>
+      <header>
+        <span class="logo">Cine SoulCode</span>
+      </header>
+    </section>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Categorias</a>
+                <ul>
+                  <li><a href="animacao/animacao.html">Animação</a></li>
+                  <li><a href="comedia/comedia.html">Comédia</a></li>
+                  <li><a href="romance/romance.html">Romance</a></li>
+                  <li><a href="terror/terror.html">Terror</a></li>
+                </ul>
+          </li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="lancamentos.html">Próximos lançamentos</a></li>
+        </ul>
+          <input class="inputBusca" type="search" id="busca" placeholder="Buscar..." onfocus="this.value=''"/>
+          <input class="botaoBusca" type="button" value="Ir" onclick="window.alert('Termo não encontrado. Tente outra vez.')">
+      </nav>
+    </section>
+
+    <section class="conteudo">
+      <aside>
+        <article>
+          <h2>Próximos lançamentos</h2>
+          <table>
+            <tr>
+              <th colspan="3"><p>Filmes</p></th>
+              <th><p>Série</p></th>
+            </tr>
+            <tr>
+              <th><p>Dia 16/07</p></th>
+              <th><p>Dia 19/10</p></th>
+              <th><p>Dia 10/11</p></th>
+              <th><p>Dia 28/12</p></th>
+            </tr>
+            <tr>
+              <td class="moldura">
+                <span class="bloco">
+                  <img src="imagens/lancamentos/16-07_jurassic.jpg" alt="Jurassic Park" title="Jurassic Park">
+                  <span class="mascara">&nbsp;</span>
+                </span>
+              </td>
+              <td class="moldura">
+                <span class="bloco">
+                  <img src="imagens/lancamentos/19-10_seven.jpg" alt="Seven - Os Sete Pecados Capitais" title="Seven - Os Sete Pecados Capitais">
+                  <span class="mascara">&nbsp;</span>
+              <td class="moldura">
+                <span class="bloco">
+                  <img src="imagens/lancamentos/10-11_tesla.jpg" alt="Tesla" title="Tesla">
+                <span class="mascara">&nbsp;</span>
+              </td>
+              <td class="moldura">
+                <span class="bloco">
+                  <img src="imagens/lancamentos/28-12_black_sails.jpg" alt="Black Sails" title="Black Sails">
+                <span class="mascara">&nbsp;</span>
+              </td>
+            </tr>
+            <tr>
+              <td><p>Jurassic Park</p></td>
+              <td><p>Seven<br/> Os 7 Pecados Capitais</p></td>
+              <td><p>Tesla</p></td>
+              <td><p>Black Sails</p></td>
+            </tr>
+          </table>
+        </article>
+      </aside>
+    </section>
+
+    <section>
+      <footer>
+        <p>&copy2021 - Leandro Lesnik - Para me encontrar siga <a href="https://www.instagram.com/soulcodeacademy/">@SoulCode</a> e <a href="https://www.linkedin.com/groups/9026577/">SoulCode</a></p>
+      </footer>
+    </section>
+
+  </main>
+</body>
+</html>

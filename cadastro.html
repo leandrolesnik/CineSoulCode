@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <title>Cine SoulCode - Cadastro</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <header>
+          <span class="logo">Cine SoulCode</span>
+        </header>
+      </section>
+
+      <section>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="#">Categorias</a>
+              <ul>
+                <li><a href="animacao/animacao.html">Animação</a></li>
+                <li><a href="comedia/comedia.html">Comédia</a></li>
+                <li><a href="romance/romance.html">Romance</a></li>
+                <li><a href="terror/terror.html">Terror</a></li>
+              </ul>
+            </li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="lancamentos.html">Próximos lançamentos</a></li>
+          </ul>
+          <input
+            class="inputBusca"
+            type="search"
+            id="busca"
+            placeholder="Buscar..."
+            onfocus="this.value=''"
+          />
+          <input
+            class="botaoBusca"
+            type="button"
+            value="Ir"
+            onclick="window.alert('Termo não encontrado. Tente outra vez.')"
+          />
+        </nav>
+      </section>
+
+      <section class="conteudo">
+        <aside>
+          <article>
+            <h2>Cadastro</h2>
+            <p>Receba nossas novidades em seu e-mail.</p>
+            <br />
+            <form action="#" method="POST">
+              <label for="nome" title="nome"
+                ><p>
+                  *Nome:
+                  <input
+                    class="inputCadastrar"
+                    type="text"
+                    id="nome"
+                    placeholder="Nome"
+                    required
+                  />
+                </p>
+              </label>
+              <label for="email" title="nome"
+                ><p>
+                  *E-mail:
+                  <input
+                    class="inputCadastrar"
+                    type="email"
+                    id="email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </p>
+              </label>
+              <p>
+                <input
+                  type="button"
+                  value="Cadastrar"
+                  class="botaoCadastrar"
+                  onclick="window.alert('Cadastrado com sucesso!')"
+                  onmouseout="nome.value='', email.value=''"
+                />
+              </p>
+            </form>
+          </article>
+        </aside>
+      </section>
+
+      <section>
+        <footer>
+          <p>
+            &copy2021 - Leandro Lesnik - Para me encontrar siga
+            <a href="https://www.instagram.com/soulcodeacademy/">@SoulCode</a> e
+            <a href="https://www.linkedin.com/groups/9026577/">SoulCode</a>
+          </p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
